@@ -1,0 +1,170 @@
+body {
+    margin: 0%;
+    padding: 2px;
+}
+
+
+/* Navigation Bar */
+
+#navbar {
+    background-color: #000000b5;
+    border: 2px solid;
+    height: 5vh;
+    margin-bottom: 1.2rem;
+    margin-top: 0px;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+
+.nav_options {
+    text-decoration: noen;
+    color: white;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+/* Blog main image */
+
+#Blog_main_image {
+    height: 40vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkDWGxTWKbVLmFw6fpi8gY81kuzhCeFr8UA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+}
+
+
+/* Blog Title */
+
+#Blog_Title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+
+/* user info
+            name
+            email
+            occupation */
+
+#User_Info_Section {
+    display: inline-block;
+    width: 20vw;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#User_Info_Section img {
+    display: block;
+    width: 10vw;
+}
+
+
+/* main content
+            Heading of Blog
+            Inroduction of Blog
+            image
+            Three subheadings with paragraphs
+            Conclusion */
+
+main {
+    display: inline-block;
+    width: 45vw;
+    padding: 4vw;
+    border-color: slateblue;
+    border-style: dashed;
+    border-top: none;
+    border-bottom: none;
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+main h4 {
+    font-size: 1.2rem;
+}
+
+main #main_heading {
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+main img {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 40vw;
+}
+
+
+/* aside section to subscribe
+            Form
+                Name
+                Email
+                Subscribe */
+
+aside {
+    display: inline-block;
+    width: 10vw;
+    margin-left: 5vw;
+    vertical-align: top;
+    border-top: solid red;
+    padding: 2vw;
+}
+
+aside form div {
+    margin-top: 2vh;
+}
+
+aside form input {
+    width: 10vh;
+}
+
+
+/* Social Media Links
+            Facebook, Instagram, Linked in */
+
+#social_links {
+    align-self: center;
+    display: inline-block;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+#social_links h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+#social_links div {
+    width: 10vw;
+    height: 20vh;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+#social_links #facebook {
+    background-image: url(https://pnggrid.com/wp-content/uploads/2021/07/Facebook-Logo-Square-768x768.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#social_links #instagram {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#social_links #linkedin {
+    background-image: url(https://image.similarpng.com/very-thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Aaditya Nayak">
+    <title>form using html</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Registration Form</h1>
+
+        <form  action = "" method="get" >
+            <div>
+                <label for="regno"><b>Registration number</b></label>
+                <br>
+                <input type="text" name="reg_no" id="reg_no" placeholder="Enter your reg_no">
+            </div>
+
+            <div>
+                <label for="password"><b>Password</b></label>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </div>
+
+            <div>
+                <label for="gender"><b>Select Gender</b></label>
+                <br>
+                <input type="radio" name="gender" id="gender" value="Male"> &nbsp; Male <br>
+                <input type="radio" name="gender" id="gender" value="Female"> &nbsp; Female <br>
+                <input type="radio" name="gender" id="gender" value="Trans"> &nbsp; Trans <br>
+            </div>
+
+            <div>
+                <label for="subjects"><b>Select Subjects</b></label>
+                <br>
+                <input type="checkbox" name="subjects" id="subjects" value="C++"> &nbsp; C++ <br>
+                <input type="checkbox" name="subjects" id="subjects" value="Java"> &nbsp; Java <br>
+                <input type="checkbox" name="subjects" id="subjects" value="Python"> &nbsp; Python <br>
+            </div>
+            <div>
+                <label for="city"><b>Select your city</b></label>
+                <br>
+                <select name="city" id="city">
+                    <option value="Tikamgarh">Tikamgarh</option>
+                    <option value="Bhopal">Bhoapl</option>
+                    <option value="Indore">indore</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments"><b>Comments</b></label>
+                <br>
+                <textarea name="comments" id="comments" cols="20" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70vh;
+    background-color: azure;
+    border: 2px solid black;
+}
+
+.child {
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+#c1 {
+    background-color: red;
+}
+
+#c2 {
+    background-color: green;
+}
+
+#c3 {
+    background-color: yellow;
+}
+
+#c4 {
+    background-color: blue;
+}
+
+#c5 {
+    background-color: violet;
+}
+
+#c6 {
+    background-color: purple;
+}
