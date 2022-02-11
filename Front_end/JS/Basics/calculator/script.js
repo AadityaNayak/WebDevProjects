@@ -16,8 +16,6 @@ allButtons.forEach((element) => {
         element.style.fontWeight = "bolder";
     });
 
-
-
     element.addEventListener('mouseout', (event) => {
 
         event.stopPropagation();
