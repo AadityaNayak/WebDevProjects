@@ -7,6 +7,12 @@
     overflow: hidden;
 }
 
+html {
+    background: radial-gradient(#d29bd2, #a082b6, #98d8fa, #55ff5f, #ffff7d, #dcc69f, #a08888);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
 :root {
     --calcButtonBorderColor: black;
 }
