@@ -3,11 +3,9 @@ let skillPercent = document.querySelectorAll(".skillPercent")
 
 skillPercent.forEach((element) => {
 
-    element.setAttribute("filled", false);
+    element.setAttribute("filled", "false");
 
 })
-
-
 
 function fillBars(element) {
 

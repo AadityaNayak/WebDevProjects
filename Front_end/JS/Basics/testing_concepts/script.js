@@ -1,15 +1,15 @@
 "use strict"
 
-let div_ = document.querySelector("#firstDiv");
-
-div_.style.position = "absolute";
-div_.style.top = "1000px";
-
-let fired = false;
-
-window.addEventListener("scroll", () => {
-    if (div_.getBoundingClientRect().top < window.innerHeight && fired == false) {
-        console.log("Fired");
-        fired = true;
-    }
-})
+{
+    $.ajax({
+        url: " http://maps.google.com/maps?spn=0.030372,0.068665&z=6&t=h&vp=53.859462,-3.038235",
+        method: "GET",
+        data: {
+            "output": "js"
+        },
+        success: (data) => {
+            console.log(data);
+        },
+        fail: function() {}
+    })
+}
